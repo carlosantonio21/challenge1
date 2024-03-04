@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <img class="logo" src="img/Logo.png" alt="">
+
+    <div class="panel">
+        <textarea name="" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+        <p>&#10071 Solo letras minúsculas y sin tildes</p>
+        <button class="boton" onclick="encriptar();">Encriptar</button>
+        <button class="boton" onclick="desencriptar();">Desencriptar</button>
+    </div>
+
+    <div class="muestra">
+        <textarea name="" id="texto2" placeholder="Ingrese el texto aquí" readonly style="display: none;"></textarea>
+        <img id="imagen" src="img/imagen.png" alt="">
+        <button class="boton" onclick="copiar();">Copiar</button>
+    </div>
+
+
+    <script src="Encriptador.js"></script>
+</body>
+</html>
